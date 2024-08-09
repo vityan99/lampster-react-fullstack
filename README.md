@@ -89,7 +89,7 @@ lampster - это full-stack проект интернет-магазина, с�
 
 - [HTML5](https://html.com/html5/)
 - [CSS3](https://www.w3schools.com/W3CSS/)
-- [REACT](https://reactdev.ru/)
+- [React](https://reactdev.ru/)
 - [FontAweSomeIcons](https://fontawesome.com/)
 - [Express.js](https://expressjs.com/ru/)
 - [nodemon](https://www.npmjs.com/package/nodemon)
