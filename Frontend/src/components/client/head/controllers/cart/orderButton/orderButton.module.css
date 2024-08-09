@@ -1,0 +1,13 @@
+.btn {
+  cursor: pointer;
+  border: 0px;
+  background-color: transparent;
+}
+.btn--order {
+  display: inline-block;
+  background-color: #f56a43;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  text-align: center;
+}

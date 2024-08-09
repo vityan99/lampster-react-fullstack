@@ -1,0 +1,16 @@
+.filter-group {
+  width: calc(25% - 10px);
+  margin: 0 5px;
+  margin-top: 20px;
+}
+
+.filter-group__title {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.filter-group__field-holder {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,7 @@
+.mini-cart__calculates-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 13px;
+  color: #fff;
+}

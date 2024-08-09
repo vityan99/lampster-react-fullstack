@@ -1,0 +1,22 @@
+.filter-field-group {
+  margin-right: 5px;
+}
+
+.filter-field-group:last-child {
+  margin-right: 0;
+}
+
+.form-control-label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #a3a3a3;
+}
+
+.form-control-field {
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #f1741a;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

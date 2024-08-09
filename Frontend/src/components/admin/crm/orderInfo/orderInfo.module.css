@@ -1,0 +1,48 @@
+.order-info {
+  display: grid;
+  grid-template-columns: 125px 125px 125px 125px 350px 200px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.order-info__number,
+.order-info__name,
+.order-info__surname,
+.order-info__phone,
+.order-info__adress {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn {
+  border: none;
+  background-color: #f56a43;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn--info {
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+.order-info__details {
+  display: none;
+  margin-top: 50px;
+}
+
+.order-info__details--active {
+  display: block;
+}

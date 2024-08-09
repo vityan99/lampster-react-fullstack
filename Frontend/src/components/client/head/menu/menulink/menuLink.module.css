@@ -1,0 +1,18 @@
+.menu__link {
+  position: relative;
+}
+
+.menu__link--active {
+  color: #f56a43;
+}
+
+.menu__link--active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #f56a43;
+}

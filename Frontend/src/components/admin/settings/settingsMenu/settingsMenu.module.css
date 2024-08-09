@@ -1,0 +1,19 @@
+.settings {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  border: 1px solid #f56a43;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 265px;
+  min-height: 53px;
+  z-index: 999;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+  padding: 15px 20px;
+}

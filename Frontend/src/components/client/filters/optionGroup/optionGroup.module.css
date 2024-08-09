@@ -1,0 +1,12 @@
+.form-control-select {
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #f1741a;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.form-control-select option {
+  background-color: #0f0c2b;
+}

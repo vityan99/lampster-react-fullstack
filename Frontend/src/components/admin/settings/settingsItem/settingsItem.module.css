@@ -1,0 +1,30 @@
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu__btn {
+  font-size: 14px;
+  color: #2f2f44;
+}
+
+.menu__item {
+  position: relative;
+}
+
+.menu__item:not(:last-child) {
+  padding-bottom: 15px;
+}
+
+.menu__item:not(:last-child) .menu__btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  right: -10px;
+  left: -20px;
+  width: calc(100% + 40px);
+  height: 1px;
+  background-color: #f56a43;
+}
